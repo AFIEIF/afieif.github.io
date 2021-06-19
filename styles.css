@@ -1,101 +1,113 @@
 .imp
 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 98px;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    margin-top: 15%;
-    text-align: center;
+    font-size: 48px;
+    margin-top: 100px;
+    padding: 30px;
     transition: 1s;
-    color: #947EB0;
+    color: #7230c9;
 }
-.imp:hover
+.imp span
 {
-    color: #21FA90;
-
+    animation: blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
+@keyframes blink {
+    0% { opacity: 0;}
+    50% {opacity: 1;}
+    100% { opacity: 0;}
+  }
 .whisper
 {
-    color: #21FA90;
+    color: white;
     text-align: center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: italic;
     transition: 1s;
     margin-bottom: 25%;
-}
-.whisper:hover
-{
-    color: #947EB0;
 }
 .flexbox
 {
     display: flex;
     justify-content: space-around;
-    margin: auto;
-   
+}
+.flexbox div
+{
+    color:black;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 0.75cm;
+    background-color:plum;
+    font-family:'Montserrat', sans-serif; 
+    font-weight: Bold;
+    font-size: 18px; 
 }
 .sec
 {
-    font-size: 56px;
+    font-size: 30px;
     font-weight: bold;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color:#947EB0;
-    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px;
+    padding-bottom: 0px;
+    color: #7230c9;
     transition: 1s;
     margin-bottom: 25px;
 }
-.sec:hover
-{
-    
-    color:#21FA90;
-}
 .skill
 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font: bold;
     font-size: 20px;
-    color: #21FA90;
+    color:white;
     transition: 1s;
     margin-bottom: 75px;
-    padding: 25px;
+    padding: 30px;
+    padding-top: 0px;
 }
 .skill1
 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font: bold;
     font-size: 20px;
-    color: #21FA90;
+    color: white;
     padding: 25px;
 }
 .course
 {
-    color: #21FA90;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
+    margin-left: 10px;
 }
 .whisper1
 {
     color: coral;
     text-align: left;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: italic;
+    margin-left: 10px;
 }
 .institute
 {
-    color: #21FA90;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: plum;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     margin-bottom: 10px;
+    margin-left: 10px;
 }
 body
 {
-    background-color: #4A4236;
+    background-color:black;
+}
+.flexbox a
+{
+    text-decoration: none;
+    color: black;
 }
 @media only screen and (max-width: 767px) {
     {
         text-align: center;
-    }
-    .imp
-    {
-        font-size: 72px;
     }
 }
